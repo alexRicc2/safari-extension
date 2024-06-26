@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA406322C2B83E30037CAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406312C2B83E30037CAEE /* AppDelegate.swift */; };
+		CFA406342C2B83E30037CAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406332C2B83E30037CAEE /* SceneDelegate.swift */; };
+		CFA406372C2B83E30037CAEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFA406362C2B83E30037CAEE /* Base */; };
+		CFA4063A2C2B83E30037CAEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFA406392C2B83E30037CAEE /* Base */; };
+		CFA406432C2B83E30037CAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406422C2B83E30037CAEE /* AppDelegate.swift */; };
+		CFA406462C2B83E30037CAEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFA406452C2B83E30037CAEE /* Base */; };
+		CFA4064E2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CFA4064D2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFA406582C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CFA406572C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFA4065E2C2B83E30037CAEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFA406222C2B83E20037CAEE /* Base */; };
+		CFA4065F2C2B83E30037CAEE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFA406222C2B83E20037CAEE /* Base */; };
+		CFA406602C2B83E30037CAEE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA406232C2B83E20037CAEE /* Icon.png */; };
+		CFA406612C2B83E30037CAEE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA406232C2B83E20037CAEE /* Icon.png */; };
+		CFA406622C2B83E30037CAEE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CFA406242C2B83E20037CAEE /* Style.css */; };
+		CFA406632C2B83E30037CAEE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CFA406242C2B83E20037CAEE /* Style.css */; };
+		CFA406642C2B83E30037CAEE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CFA406252C2B83E20037CAEE /* Script.js */; };
+		CFA406652C2B83E30037CAEE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CFA406252C2B83E20037CAEE /* Script.js */; };
+		CFA406662C2B83E30037CAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406262C2B83E20037CAEE /* ViewController.swift */; };
+		CFA406672C2B83E30037CAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406262C2B83E20037CAEE /* ViewController.swift */; };
+		CFA406682C2B83E30037CAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA406272C2B83E30037CAEE /* Assets.xcassets */; };
+		CFA406692C2B83E30037CAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA406272C2B83E30037CAEE /* Assets.xcassets */; };
+		CFA4066A2C2B83E30037CAEE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406292C2B83E30037CAEE /* SafariWebExtensionHandler.swift */; };
+		CFA4066B2C2B83E30037CAEE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA406292C2B83E30037CAEE /* SafariWebExtensionHandler.swift */; };
+		CFA406842C2B83E30037CAEE /* rules_1.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067D2C2B83E30037CAEE /* rules_1.json */; };
+		CFA406852C2B83E30037CAEE /* html in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067E2C2B83E30037CAEE /* html */; };
+		CFA406862C2B83E30037CAEE /* style in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067F2C2B83E30037CAEE /* style */; };
+		CFA406872C2B83E30037CAEE /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = CFA406802C2B83E30037CAEE /* _metadata */; };
+		CFA406882C2B83E30037CAEE /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = CFA406812C2B83E30037CAEE /* scripts */; };
+		CFA406892C2B83E30037CAEE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA406822C2B83E30037CAEE /* manifest.json */; };
+		CFA4068A2C2B83E30037CAEE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = CFA406832C2B83E30037CAEE /* assets */; };
+		CFA4068B2C2B83E30037CAEE /* rules_1.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067D2C2B83E30037CAEE /* rules_1.json */; };
+		CFA4068C2C2B83E30037CAEE /* html in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067E2C2B83E30037CAEE /* html */; };
+		CFA4068D2C2B83E30037CAEE /* style in Resources */ = {isa = PBXBuildFile; fileRef = CFA4067F2C2B83E30037CAEE /* style */; };
+		CFA4068E2C2B83E30037CAEE /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = CFA406802C2B83E30037CAEE /* _metadata */; };
+		CFA4068F2C2B83E30037CAEE /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = CFA406812C2B83E30037CAEE /* scripts */; };
+		CFA406902C2B83E30037CAEE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA406822C2B83E30037CAEE /* manifest.json */; };
+		CFA406912C2B83E30037CAEE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = CFA406832C2B83E30037CAEE /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA4064F2C2B83E30037CAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA4061B2C2B83E20037CAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA4064C2C2B83E30037CAEE;
+			remoteInfo = "The SEO Hustler extension BETA Extension (iOS)";
+		};
+		CFA406592C2B83E30037CAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA4061B2C2B83E20037CAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA406562C2B83E30037CAEE;
+			remoteInfo = "The SEO Hustler extension BETA Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFA406712C2B83E30037CAEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFA4064E2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA406782C2B83E30037CAEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFA406582C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFA406222C2B83E20037CAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CFA406232C2B83E20037CAEE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CFA406242C2B83E20037CAEE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CFA406252C2B83E20037CAEE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CFA406262C2B83E20037CAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA406272C2B83E30037CAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA406292C2B83E30037CAEE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CFA4062E2C2B83E30037CAEE /* The SEO Hustler extension BETA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SEO Hustler extension BETA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA406312C2B83E30037CAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA406332C2B83E30037CAEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFA406362C2B83E30037CAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA406392C2B83E30037CAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA4063B2C2B83E30037CAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA406402C2B83E30037CAEE /* The SEO Hustler extension BETA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SEO Hustler extension BETA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA406422C2B83E30037CAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA406452C2B83E30037CAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA406472C2B83E30037CAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA406482C2B83E30037CAEE /* The SEO Hustler extension BETA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The SEO Hustler extension BETA.entitlements"; sourceTree = "<group>"; };
+		CFA4064D2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The SEO Hustler extension BETA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA406522C2B83E30037CAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA406572C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The SEO Hustler extension BETA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA4065C2C2B83E30037CAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA4065D2C2B83E30037CAEE /* The SEO Hustler extension BETA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The SEO Hustler extension BETA.entitlements"; sourceTree = "<group>"; };
+		CFA4067D2C2B83E30037CAEE /* rules_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = rules_1.json; path = "../../seo-browser-extension/rules_1.json"; sourceTree = "<group>"; };
+		CFA4067E2C2B83E30037CAEE /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = "../../seo-browser-extension/html"; sourceTree = "<group>"; };
+		CFA4067F2C2B83E30037CAEE /* style */ = {isa = PBXFileReference; lastKnownFileType = folder; name = style; path = "../../seo-browser-extension/style"; sourceTree = "<group>"; };
+		CFA406802C2B83E30037CAEE /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../seo-browser-extension/_metadata"; sourceTree = "<group>"; };
+		CFA406812C2B83E30037CAEE /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = "../../seo-browser-extension/scripts"; sourceTree = "<group>"; };
+		CFA406822C2B83E30037CAEE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../seo-browser-extension/manifest.json"; sourceTree = "<group>"; };
+		CFA406832C2B83E30037CAEE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../seo-browser-extension/assets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA4062B2C2B83E30037CAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA4063D2C2B83E30037CAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA4064A2C2B83E30037CAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA406542C2B83E30037CAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA4061A2C2B83E20037CAEE = {
+			isa = PBXGroup;
+			children = (
+				CFA4061F2C2B83E20037CAEE /* Shared (App) */,
+				CFA406282C2B83E30037CAEE /* Shared (Extension) */,
+				CFA406302C2B83E30037CAEE /* iOS (App) */,
+				CFA406412C2B83E30037CAEE /* macOS (App) */,
+				CFA406512C2B83E30037CAEE /* iOS (Extension) */,
+				CFA4065B2C2B83E30037CAEE /* macOS (Extension) */,
+				CFA4062F2C2B83E30037CAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA4061F2C2B83E20037CAEE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA406262C2B83E20037CAEE /* ViewController.swift */,
+				CFA406272C2B83E30037CAEE /* Assets.xcassets */,
+				CFA406202C2B83E20037CAEE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		CFA406202C2B83E20037CAEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFA406212C2B83E20037CAEE /* Main.html */,
+				CFA406232C2B83E20037CAEE /* Icon.png */,
+				CFA406242C2B83E20037CAEE /* Style.css */,
+				CFA406252C2B83E20037CAEE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFA406282C2B83E30037CAEE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA4067C2C2B83E30037CAEE /* Resources */,
+				CFA406292C2B83E30037CAEE /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		CFA4062F2C2B83E30037CAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA4062E2C2B83E30037CAEE /* The SEO Hustler extension BETA.app */,
+				CFA406402C2B83E30037CAEE /* The SEO Hustler extension BETA.app */,
+				CFA4064D2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */,
+				CFA406572C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA406302C2B83E30037CAEE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA406312C2B83E30037CAEE /* AppDelegate.swift */,
+				CFA406332C2B83E30037CAEE /* SceneDelegate.swift */,
+				CFA406352C2B83E30037CAEE /* LaunchScreen.storyboard */,
+				CFA406382C2B83E30037CAEE /* Main.storyboard */,
+				CFA4063B2C2B83E30037CAEE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CFA406412C2B83E30037CAEE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA406422C2B83E30037CAEE /* AppDelegate.swift */,
+				CFA406442C2B83E30037CAEE /* Main.storyboard */,
+				CFA406472C2B83E30037CAEE /* Info.plist */,
+				CFA406482C2B83E30037CAEE /* The SEO Hustler extension BETA.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CFA406512C2B83E30037CAEE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA406522C2B83E30037CAEE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CFA4065B2C2B83E30037CAEE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CFA4065C2C2B83E30037CAEE /* Info.plist */,
+				CFA4065D2C2B83E30037CAEE /* The SEO Hustler extension BETA.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CFA4067C2C2B83E30037CAEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFA4067D2C2B83E30037CAEE /* rules_1.json */,
+				CFA4067E2C2B83E30037CAEE /* html */,
+				CFA4067F2C2B83E30037CAEE /* style */,
+				CFA406802C2B83E30037CAEE /* _metadata */,
+				CFA406812C2B83E30037CAEE /* scripts */,
+				CFA406822C2B83E30037CAEE /* manifest.json */,
+				CFA406832C2B83E30037CAEE /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA4062D2C2B83E30037CAEE /* The SEO Hustler extension BETA (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA406722C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA (iOS)" */;
+			buildPhases = (
+				CFA4062A2C2B83E30037CAEE /* Sources */,
+				CFA4062B2C2B83E30037CAEE /* Frameworks */,
+				CFA4062C2C2B83E30037CAEE /* Resources */,
+				CFA406712C2B83E30037CAEE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA406502C2B83E30037CAEE /* PBXTargetDependency */,
+			);
+			name = "The SEO Hustler extension BETA (iOS)";
+			productName = "The SEO Hustler extension BETA (iOS)";
+			productReference = CFA4062E2C2B83E30037CAEE /* The SEO Hustler extension BETA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA4063F2C2B83E30037CAEE /* The SEO Hustler extension BETA (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA406792C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA (macOS)" */;
+			buildPhases = (
+				CFA4063C2C2B83E30037CAEE /* Sources */,
+				CFA4063D2C2B83E30037CAEE /* Frameworks */,
+				CFA4063E2C2B83E30037CAEE /* Resources */,
+				CFA406782C2B83E30037CAEE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA4065A2C2B83E30037CAEE /* PBXTargetDependency */,
+			);
+			name = "The SEO Hustler extension BETA (macOS)";
+			productName = "The SEO Hustler extension BETA (macOS)";
+			productReference = CFA406402C2B83E30037CAEE /* The SEO Hustler extension BETA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA4064C2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA4066E2C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA Extension (iOS)" */;
+			buildPhases = (
+				CFA406492C2B83E30037CAEE /* Sources */,
+				CFA4064A2C2B83E30037CAEE /* Frameworks */,
+				CFA4064B2C2B83E30037CAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The SEO Hustler extension BETA Extension (iOS)";
+			productName = "The SEO Hustler extension BETA Extension (iOS)";
+			productReference = CFA4064D2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CFA406562C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA406752C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA Extension (macOS)" */;
+			buildPhases = (
+				CFA406532C2B83E30037CAEE /* Sources */,
+				CFA406542C2B83E30037CAEE /* Frameworks */,
+				CFA406552C2B83E30037CAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The SEO Hustler extension BETA Extension (macOS)";
+			productName = "The SEO Hustler extension BETA Extension (macOS)";
+			productReference = CFA406572C2B83E30037CAEE /* The SEO Hustler extension BETA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA4061B2C2B83E20037CAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CFA4062D2C2B83E30037CAEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFA4063F2C2B83E30037CAEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFA4064C2C2B83E30037CAEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFA406562C2B83E30037CAEE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CFA4061E2C2B83E20037CAEE /* Build configuration list for PBXProject "The SEO Hustler extension BETA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA4061A2C2B83E20037CAEE;
+			productRefGroup = CFA4062F2C2B83E30037CAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA4062D2C2B83E30037CAEE /* The SEO Hustler extension BETA (iOS) */,
+				CFA4063F2C2B83E30037CAEE /* The SEO Hustler extension BETA (macOS) */,
+				CFA4064C2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (iOS) */,
+				CFA406562C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA4062C2C2B83E30037CAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA406602C2B83E30037CAEE /* Icon.png in Resources */,
+				CFA406372C2B83E30037CAEE /* Base in Resources */,
+				CFA4065E2C2B83E30037CAEE /* Base in Resources */,
+				CFA406642C2B83E30037CAEE /* Script.js in Resources */,
+				CFA406682C2B83E30037CAEE /* Assets.xcassets in Resources */,
+				CFA4063A2C2B83E30037CAEE /* Base in Resources */,
+				CFA406622C2B83E30037CAEE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA4063E2C2B83E30037CAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA406612C2B83E30037CAEE /* Icon.png in Resources */,
+				CFA406632C2B83E30037CAEE /* Style.css in Resources */,
+				CFA406462C2B83E30037CAEE /* Base in Resources */,
+				CFA406652C2B83E30037CAEE /* Script.js in Resources */,
+				CFA406692C2B83E30037CAEE /* Assets.xcassets in Resources */,
+				CFA4065F2C2B83E30037CAEE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA4064B2C2B83E30037CAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA4068D2C2B83E30037CAEE /* style in Resources */,
+				CFA4068E2C2B83E30037CAEE /* _metadata in Resources */,
+				CFA406912C2B83E30037CAEE /* assets in Resources */,
+				CFA4068B2C2B83E30037CAEE /* rules_1.json in Resources */,
+				CFA4068F2C2B83E30037CAEE /* scripts in Resources */,
+				CFA406902C2B83E30037CAEE /* manifest.json in Resources */,
+				CFA4068C2C2B83E30037CAEE /* html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA406552C2B83E30037CAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA406862C2B83E30037CAEE /* style in Resources */,
+				CFA406872C2B83E30037CAEE /* _metadata in Resources */,
+				CFA4068A2C2B83E30037CAEE /* assets in Resources */,
+				CFA406842C2B83E30037CAEE /* rules_1.json in Resources */,
+				CFA406882C2B83E30037CAEE /* scripts in Resources */,
+				CFA406892C2B83E30037CAEE /* manifest.json in Resources */,
+				CFA406852C2B83E30037CAEE /* html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA4062A2C2B83E30037CAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA406662C2B83E30037CAEE /* ViewController.swift in Sources */,
+				CFA406322C2B83E30037CAEE /* AppDelegate.swift in Sources */,
+				CFA406342C2B83E30037CAEE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA4063C2C2B83E30037CAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA406672C2B83E30037CAEE /* ViewController.swift in Sources */,
+				CFA406432C2B83E30037CAEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA406492C2B83E30037CAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA4066A2C2B83E30037CAEE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA406532C2B83E30037CAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA4066B2C2B83E30037CAEE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA406502C2B83E30037CAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA4064C2C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (iOS) */;
+			targetProxy = CFA4064F2C2B83E30037CAEE /* PBXContainerItemProxy */;
+		};
+		CFA4065A2C2B83E30037CAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA406562C2B83E30037CAEE /* The SEO Hustler extension BETA Extension (macOS) */;
+			targetProxy = CFA406592C2B83E30037CAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA406212C2B83E20037CAEE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA406222C2B83E20037CAEE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CFA406352C2B83E30037CAEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA406362C2B83E30037CAEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA406382C2B83E30037CAEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA406392C2B83E30037CAEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA406442C2B83E30037CAEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA406452C2B83E30037CAEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA4066C2C2B83E30037CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA4066D2C2B83E30037CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CFA4066F2C2B83E30037CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA.Extension";
+				PRODUCT_NAME = "The SEO Hustler extension BETA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA406702C2B83E30037CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA.Extension";
+				PRODUCT_NAME = "The SEO Hustler extension BETA Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA406732C2B83E30037CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA";
+				PRODUCT_NAME = "The SEO Hustler extension BETA";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA406742C2B83E30037CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA";
+				PRODUCT_NAME = "The SEO Hustler extension BETA";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA406762C2B83E30037CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/The SEO Hustler extension BETA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA.Extension";
+				PRODUCT_NAME = "The SEO Hustler extension BETA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFA406772C2B83E30037CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/The SEO Hustler extension BETA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA.Extension";
+				PRODUCT_NAME = "The SEO Hustler extension BETA Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFA4067A2C2B83E30037CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/The SEO Hustler extension BETA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA";
+				PRODUCT_NAME = "The SEO Hustler extension BETA";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFA4067B2C2B83E30037CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/The SEO Hustler extension BETA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The SEO Hustler extension BETA";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-SEO-Hustler-extension-BETA";
+				PRODUCT_NAME = "The SEO Hustler extension BETA";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA4061E2C2B83E20037CAEE /* Build configuration list for PBXProject "The SEO Hustler extension BETA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA4066C2C2B83E30037CAEE /* Debug */,
+				CFA4066D2C2B83E30037CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA4066E2C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA4066F2C2B83E30037CAEE /* Debug */,
+				CFA406702C2B83E30037CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA406722C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA406732C2B83E30037CAEE /* Debug */,
+				CFA406742C2B83E30037CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA406752C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA406762C2B83E30037CAEE /* Debug */,
+				CFA406772C2B83E30037CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA406792C2B83E30037CAEE /* Build configuration list for PBXNativeTarget "The SEO Hustler extension BETA (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA4067A2C2B83E30037CAEE /* Debug */,
+				CFA4067B2C2B83E30037CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA4061B2C2B83E20037CAEE /* Project object */;
+}
